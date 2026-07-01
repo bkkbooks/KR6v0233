@@ -1,0 +1,72 @@
+canonical_identifier: bkk:krp/KR6v0233/v1
+canonical_location: https://kanripo.org/bkk/KR6v0233/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 中岳嵩陽寺碑
+  identifiers:
+    alt_id:
+    - I01n0034
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0034.xml
+    old_id: I01n0034
+  edition:
+    short: bkk
+editions:
+- short: 佛拓
+  label: 佛拓
+  source_xml_id: wit.orig
+- short: I
+assets:
+  parts:
+  - {seq: 0, filename: KR6v0233_000.yaml, hash: 'sha256:c055d6b3894b5269b12f4685e7d76ad5eac9f3e207c61d2a909793d2c4db8987'}
+  - {seq: 1, filename: KR6v0233_001.yaml, hash: 'sha256:e3819164a60dd6a29ecef74625c0330b81a101266c17c73382af2f977ca1860b'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6v0233_001.markers.yaml, hash: 'sha256:9049bcb8c053c2f517ce957300a82885b4ccd30b50389d3a7e82680aac69b6a7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6v0233_I_001-juan-start
+    span:
+    - body
+    - 0
+    - 970
+  label: 中岳嵩陽寺碑
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0233_I_001-mulu-1
+    span:
+    - body
+    - 0
+    - 0
+  label: 碑陽
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0233_I_001-mulu-2
+    span:
+    - body
+    - 2
+    - 2
+  label: 額
+  type: mulu
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6v0233_I_001-mulu-3
+    span:
+    - body
+    - 9
+    - 9
+  label: 本文
+  type: mulu
+  level: 1
+hash: sha256:61ac82f0d812771e660f2bd7a25a5765cc16c67d75de02f334e5c5e4fa80ef12
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6v0233/i/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 中岳嵩陽寺碑
+  edition:
+    short: i
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/I/I01/I01n0034.xml
+    old_id: I01n0034
+hash: sha256:c055d6b3894b5269b12f4685e7d76ad5eac9f3e207c61d2a909793d2c4db8987
