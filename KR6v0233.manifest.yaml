@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6v0233/v1
 canonical_location: https://kanripo.org/bkk/KR6v0233/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 中岳嵩陽寺碑
   identifiers:
@@ -22,10 +22,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6v0233_000.yaml, hash: 'sha256:c055d6b3894b5269b12f4685e7d76ad5eac9f3e207c61d2a909793d2c4db8987'}
-  - {seq: 1, filename: KR6v0233_001.yaml, hash: 'sha256:2b7ebd9e7a5a90c8ee19b50dd159c78f8d3b37135893034919c76aefb5e9aca2'}
+  - {seq: 1, filename: KR6v0233_001.yaml, hash: 'sha256:e3819164a60dd6a29ecef74625c0330b81a101266c17c73382af2f977ca1860b'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6v0233_000.markers.yaml, hash: 'sha256:f314c7cf94042e62c692e055c73a9f55b290930fce597e31710b128a2a8ed07d'}
-  - {seq: 1, role: markers, filename: assets/KR6v0233_001.markers.yaml, hash: 'sha256:e5677038eaa69511ac46cb8fd8b3bd5e50e63b1192bceb0518f6230d2cb48d12'}
+  - {seq: 1, role: markers, filename: assets/KR6v0233_001.markers.yaml, hash: 'sha256:d08901c8abc1dc248df019193ef4cb55ab3cb5622fac48e1655dfb6523da4136'}
 table_of_contents:
 - ref:
     seq: 1
@@ -67,4 +67,7 @@ table_of_contents:
   label: 本文
   type: mulu
   level: 1
-hash: sha256:c9b03b37b35d34b66907bbcdda9c61b3a740332ac556cb4538ef6a0e9c9eab0f
+hash: sha256:386ac958c73f4f59c75cc3f2f9f4a1a7a51cf0263f6c46f99e5c9a845b2aeb56
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
